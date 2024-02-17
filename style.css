@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  input {
+    display: block;
+  }
+  .card,.modal {
+    width: fit-content;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background-color: rgba(238, 235, 235, 0.553);
+    transition: 0.2s;
+  }
+  .gender, .prob {
+    font-weight: 700;
+  }
+  .first {
+    font-family:monospace
+  }
+  .firstP {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+  }
+  p {
+    margin: 1.5rem 0rem; 
+    font-size: 1.3rem;
+  }
+  input {
+    height: 2.5rem;
+    width: 80%;
+    font-size: 1rem;
+  }
+  .button {
+    background-color: grey;
+    width: 50%;
+    color: white;
+    margin: 1.5rem 0rem;
+  }
+  .little {
+    font-size: 0.8rem;
+    font-weight: 1000;
+  }
+
+  /* .button:hover {
+    background-color: white;
+    color: black;
+  } */
+  .button-active {
+    background-color: black;
+    color: white;
+  }
+  h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+  } 
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: rgba(238, 235, 235, 0.553);;
+    }
+    h1 {
+      display: none;
+    }
+    .card {
+      height: 100vh;
+    }
+    p {
+      margin: 2rem 0;
+    }
+  }
+  #name:focus {
+    outline: none;
+    border: none;
+    padding: 0 0.2rem;
+  }
+
+  .shadow {
+    box-shadow: 2px 2px 10px grey;
+    transition: 0.2s;
+  }
+
+  .black {
+    background-color: black;
+  }
+  .displayTrue {
+    display: block;
+  }
+  .displayFalse {
+    display: none;
+  }
+  .color {
+    color: rgb(239, 18, 18);
+  }
+  .male {
+    background-color: rgb(52, 52, 247);
+  }
+  .female {
+    background-color: pink;
+  }
+  .man {
+    color: rgb(52, 52, 247); text-shadow: 2px 2px 5px black;
+  }
+  .woman {
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+  }
+  .red {
+    color: red;
+  }
+  .orange {
+    color: rgb(255, 132, 0)
+  }
+  .green {
+    color: rgb(0, 183, 0);
+  }
+  .opacity {
+    opacity: 0.5;
+  }
